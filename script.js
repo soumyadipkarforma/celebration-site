@@ -1,8 +1,8 @@
 function getQueryParams() {
   const params = new URLSearchParams(window.location.search);
   return {
-    name: params.get("name") || "BABA",
-    occasion: params.get("occasion") || "birthday",
+    name: params.get("name") || "BARDIBHAI",
+    occasion: params.get("occasion") || "rakhi",
   };
 }
 
